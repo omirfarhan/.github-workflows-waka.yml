@@ -17,18 +17,4 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-           user: omirfarhan
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Dhaka
-          plugin_commits: yes
-          plugin_commits_sections: all
-          plugin_commits_history: 1y
-          plugin_isocalendar: yes
-          plugin_followup: yes
-          plugin_stargazers: yes
-          plugin_lines: yes
-          plugin_people: yes
-          plugin_reactions: yes
-          plugin_achievements: yes
-          plugin_traffic: yes
+           
